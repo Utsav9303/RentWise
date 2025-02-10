@@ -23,7 +23,7 @@ Rent Wise is a web-based platform that allows users to rent and sell properties 
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/Utsav9303/Rent_Wise.git
+   git clone https://github.com/Utsav9303/RentWise.git
    ```
 2. **Navigate to the Project Directory**
    ```sh
