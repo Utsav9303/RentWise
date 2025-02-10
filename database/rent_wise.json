@@ -1,0 +1,78 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"rent_wise"},
+{"type":"table","name":"admin_info","database":"rent_wise","data":
+[
+{"admin_id":"1","username":"Kishan","email":"rana12@gmail.com","mobile":"6353978865","city":"Patan","address":"","password":"kishan123","photo":"IMG-646128bc664185.97735029.jpg"},
+{"admin_id":"2","username":"Admin","email":"utsavmodi000@gmail.com","mobile":"9428892111","city":"Patan","address":"Rajvi Bungalows, near Pareva Circle, Patan.","password":"admin123","photo":"IMG-6795c36fcbcef1.56192631.jpg"}
+]
+}
+,{"type":"table","name":"bookings","database":"rent_wise","data":
+[
+
+]
+}
+,{"type":"table","name":"contact","database":"rent_wise","data":
+[
+
+]
+}
+,{"type":"table","name":"fav_property","database":"rent_wise","data":
+[
+{"f_id":"44","u_id":"19","pr_id":"164"}
+]
+}
+,{"type":"table","name":"my_orders","database":"rent_wise","data":
+[
+{"o_id":"9","u_id":"21","pr_id":"162","o_date":"2025-02-07 14:44:20"}
+]
+}
+,{"type":"table","name":"property","database":"rent_wise","data":
+[
+{"pr_id":"158","u_id":"19","city":"Sample City","area":"Sample Area","society":"Sample Society","type":"Sample Type","pro_no":"S-001","rent_sell":"Rent","p_space":"N\/A","price":"0","description":"This is a sample property added by default upon registration.","status":"0","p_date":"2025-02-07 00:18:23","location":"0x00000000010100000000000000000000000000000000000000"},
+{"pr_id":"159","u_id":"19","city":"Ahmedabad","area":"Science City","society":"Green Residency ","type":"Villa","pro_no":"78-96-58","rent_sell":"Rent","p_space":"4BHK","price":"52000","description":"","status":"0","p_date":"2025-02-07 12:01:52","location":"0x000000000101000000caff5cd454143740de1c85db29205240"},
+{"pr_id":"160","u_id":"19","city":"Ahmedabad","area":"Gota","society":"235 Park View","type":"Apartment ","pro_no":"1-56-73","rent_sell":"Rent","p_space":"3BHK","price":"16000","description":"","status":"0","p_date":"2025-02-07 12:26:38","location":"0x000000000101000000f802dc1686193740f303562e4d225240"},
+{"pr_id":"161","u_id":"20","city":"Sample City","area":"Sample Area","society":"Sample Society","type":"Sample Type","pro_no":"S-001","rent_sell":"Rent","p_space":"N\/A","price":"0","description":"This is a sample property added by default upon registration.","status":"0","p_date":"2025-02-07 14:19:54","location":"0x00000000010100000000000000000000000000000000000000"},
+{"pr_id":"162","u_id":"20","city":"Surat","area":"Varasa","society":"sarthi bungalows","type":"House","pro_no":"1-56-74","rent_sell":"Sell","p_space":"3BHK","price":"7000000","description":"","status":"1","p_date":"2025-02-07 14:29:46","location":"0x000000000101000000c63327a2f13635408d481e08e7385240"},
+{"pr_id":"163","u_id":"21","city":"Sample City","area":"Sample Area","society":"Sample Society","type":"Sample Type","pro_no":"S-001","rent_sell":"Rent","p_space":"N\/A","price":"0","description":"This is a sample property added by default upon registration.","status":"0","p_date":"2025-02-07 14:31:29","location":"0x00000000010100000000000000000000000000000000000000"},
+{"pr_id":"164","u_id":"21","city":"Surat","area":"Vesu","society":"Soham Bungalows","type":"Villa","pro_no":"B-5-403","rent_sell":"Rent","p_space":"4BHK","price":"50000","description":"All action will be under Govt. Documents ","status":"0","p_date":"2025-02-07 14:36:13","location":"0x0000000001010000006e9ddb31f5233540dcf91a8036315240"},
+{"pr_id":"165","u_id":"22","city":"Sample City","area":"Sample Area","society":"Sample Society","type":"Sample Type","pro_no":"S-001","rent_sell":"Rent","p_space":"N\/A","price":"0","description":"This is a sample property added by default upon registration.","status":"0","p_date":"2025-02-09 17:24:26","location":"0x00000000010100000000000000000000000000000000000000"}
+]
+}
+,{"type":"table","name":"prop_photo","database":"rent_wise","data":
+[
+{"pr_id":"159","photo":"IMG-67a5a8d8418126.44709341.jpg"},
+{"pr_id":"159","photo":"IMG-67a5a8d8422167.36291320.jpg"},
+{"pr_id":"159","photo":"IMG-67a5a8d84259d1.75644140.jpg"},
+{"pr_id":"159","photo":"IMG-67a5a8d842e3c7.79924567.jpg"},
+{"pr_id":"159","photo":"IMG-67a5a8d842fef1.29261578.jpg"},
+{"pr_id":"159","photo":"IMG-67a5a8d8431db3.28385276.jpg"},
+{"pr_id":"160","photo":"IMG-67a5aea60da248.75315865.jpg"},
+{"pr_id":"160","photo":"IMG-67a5aea60e5d29.78283196.jpg"},
+{"pr_id":"160","photo":"IMG-67a5aea60e9800.71691265.jpg"},
+{"pr_id":"160","photo":"IMG-67a5aea60f5e62.49527818.jpg"},
+{"pr_id":"160","photo":"IMG-67a5aea60f8ea7.85444561.jpg"},
+{"pr_id":"160","photo":"IMG-67a5aea60fc8a0.73586634.jpg"},
+{"pr_id":"162","photo":"IMG-67a5cb82c0bb01.15900635.jpg"},
+{"pr_id":"162","photo":"IMG-67a5cb82c16686.33241363.jpg"},
+{"pr_id":"162","photo":"IMG-67a5cb82c1df51.46585733.jpg"},
+{"pr_id":"162","photo":"IMG-67a5cb82c223d9.67368955.jpg"},
+{"pr_id":"162","photo":"IMG-67a5cb82c339b1.96481944.jpg"},
+{"pr_id":"162","photo":"IMG-67a5cb82c38ae8.44029287.jpg"},
+{"pr_id":"164","photo":"IMG-67a5cd05b76ba9.95030288.jpg"},
+{"pr_id":"164","photo":"IMG-67a5cd05b7dfc0.86998575.jpg"},
+{"pr_id":"164","photo":"IMG-67a5cd05b819d4.24025607.jpg"},
+{"pr_id":"164","photo":"IMG-67a5cd05b84c59.45672821.jpg"},
+{"pr_id":"164","photo":"IMG-67a5cd05b881f7.63278444.jpg"},
+{"pr_id":"164","photo":"IMG-67a5cd05b96515.84611535.jpg"}
+]
+}
+,{"type":"table","name":"user","database":"rent_wise","data":
+[
+{"u_id":"19","username":"Rishit Gokani","email":"rishit@gmail.com","mobile":"7372964378","password":"$2y$10$QBBq6jJRHuptYARhkXcfsOiOBT85kSHlsNHAC\/53suT61vB1XE40e","photo":"IMG-67a50722aadde3.67940504.jpg","city":"Dwarka","address":"Mandir chawk, dwarka","u_date":"2025-02-07 00:18:23"},
+{"u_id":"20","username":"Madhav","email":"madhav@gmail.com","mobile":"8320393672","password":"$2y$10$0ijOlmOJQOh39D.0rrLBC.9pIMs3hQCOBdLCzdgA3.fpDC0aMaGgq","photo":null,"city":"Surat","address":"sanskar villa socity, varasa","u_date":"2025-02-07 14:19:54"},
+{"u_id":"21","username":"Pranav Bhimani","email":"pranav@gmail.com","mobile":"9696587120","password":"$2y$10$9PUkyInyIPxEJFcXWC5nVOkQQX8WAwlwHEwe9.dWpm.SYRJ79YpMm","photo":"IMG-67a5d42501eef0.25342315.jpg","city":"Anand","address":"Madhav Gurukul, Bakrol road, Anand","u_date":"2025-02-07 14:31:29"},
+{"u_id":"22","username":"Patel Vishesh","email":"vishesh@gmail.com","mobile":"6354594821","password":"$2y$10$\/U9q0VosSQsU0\/54D1nZjuLazbrg82aeL\/nQzUmtcynIOc5O86f6K","photo":null,"city":null,"address":null,"u_date":"2025-02-09 17:24:26"}
+]
+}
+]

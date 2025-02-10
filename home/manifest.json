@@ -1,0 +1,36 @@
+{
+    "name": "RentWise",
+    "short_name": "RentWise",
+    "description": "A description of your app",
+    "start_url": "/client/app.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "download_optimized.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "download_1_optimized.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "screenshots": [
+        {
+          "src": "screenshot-wide.png",
+          "sizes": "1280x720",
+          "type": "image/png",
+          "form_factor": "wide"
+        },
+        {
+          "src": "screenshots.png",
+          "sizes": "720x1280",
+          "type": "image/png",
+          "form_factor": "narrow"
+        }
+      ]
+  }
+  
