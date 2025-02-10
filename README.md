@@ -1,45 +1,91 @@
-# Rent Wise Platform
+# RentWise - Your Smart Property Rental & Selling Platform 🏠
 
-## Overview
+Welcome to **RentWise**, your ultimate solution for renting and selling properties efficiently. With a dynamic UI and robust database connectivity, RentWise streamlines the property management experience for **clients, admins, and property managers**.
 
-Rent Wise is a web-based platform that allows users to rent and sell properties efficiently. It provides separate modules for **clients**, **admins**, and **property management** with a dynamic UI and database connectivity.
+---
 
-## Features
+## 🔎 Features
 
-- **User Authentication**: Secure signup/login for clients and admins.
-- **Property Listings**: Add, edit, and delete property listings.
-- **Search & Filters**: Advanced search functionality for users.
-- **Admin Dashboard**: Manage users, properties, and transactions.
-- **Responsive Design**: Works across multiple screen sizes.
+### 📊 Dashboard Overview
+Gain insights into your property management with:
+- **Total Listings**: Track active rental and sale properties.
+- **User Management**: Admins can monitor users and transactions.
+- **Performance Metrics**: View rental trends and property status.
 
-## Tech Stack
+### ✅ Easy Property Management
+- Add, edit, and delete property listings effortlessly.
+- Upload images and provide detailed descriptions.
+- Categorize properties for easy searchability.
 
-- **Backend**: PHP, MySQL
-- **Frontend**: HTML, CSS, JavaScript, jQuery
-- **Database**: MySQL
-- **Version Control**: Git & GitHub
+### 📈 Search & Filters
+- Advanced filters based on price, location, property type, and availability.
+- Keyword-based search for quick results.
+- Real-time property updates.
 
-## Installation
+### 🛡️ Secure & Reliable
+- **User Authentication**: Secure login for both clients and admins.
+- **Database Security**: MySQL-backed data protection.
+- **Admin Control**: Manage users, properties, and transactions securely.
 
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/Utsav9303/Rent_Wise.git
-   ```
-2. **Navigate to the Project Directory**
-   ```sh
-   cd Rent_Wise
-   ```
-3. **Setup Database**
-   - Navigate to the `database` folder.
-   - Import the `rentwise.sql` file into MySQL.
-   - Update `server/connection.php` with your database credentials.
-4. **Start the Server**
-   - Use XAMPP or WAMP to start `Apache` and `MySQL`.
-   - Place the project folder inside the `htdocs` directory (for XAMPP).
-   - Access via `http://localhost/Rent_Wise/`.
+### 🌐 Multi-Platform Compatibility
+- Works seamlessly across desktops, tablets, and mobile devices.
+- Responsive design ensures smooth navigation on all screen sizes.
 
-## Folder Structure
+---
 
+## 📚 AI-Powered Price Estimation
+RentWise incorporates an AI-trained model that estimates the selling price of properties based on:
+- **City**: Dataset includes 8 metropolitan cities.
+- **Property Type**: Categorization of property types.
+- **Furniture Status**: Whether furnished, semi-furnished, or unfurnished.
+- **Area in Square Feet**: Calculates price based on property size.
+
+### 🛠️ Technologies Used for AI Model
+- **Programming Language**: Python
+- **Framework**: Flask for API deployment
+- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib
+- **Development Tools**: PyCharm, Jupyter Notebook
+
+---
+
+## 📚 Installation
+Follow these steps to set up RentWise on your local machine:
+
+### 1️⃣ Clone the Repository
+```sh
+$ git clone https://github.com/Utsav9303/Rent_Wise.git
+$ cd Rent_Wise
+```
+
+### 2️⃣ Install Dependencies
+Ensure you have XAMPP or WAMP installed. Then:
+
+- Start **Apache** and **MySQL** services.
+- Place the project folder inside `htdocs` (for XAMPP users).
+
+### 3️⃣ Setup Database
+- Navigate to the `database` folder.
+- Import `rentwise.sql` into MySQL.
+- Update `server/connection.php` with your database credentials.
+
+### 4️⃣ Start the Server
+- Access the platform via `http://localhost/Rent_Wise/`.
+
+### 5️⃣ Run AI Model (Optional)
+- Navigate to `ai_model/` directory.
+- Install dependencies using:
+  ```sh
+  pip install -r requirements.txt
+  ```
+- Run the Flask API:
+  ```sh
+  python app.py
+  ```
+- The model API will be available at `http://localhost:5000`.
+
+---
+
+## 📂 Folder Structure
 ```
 /Rent_Wise
 │-- /admin         # Admin panel files
@@ -55,30 +101,41 @@ Rent Wise is a web-based platform that allows users to rent and sell properties 
 │-- /server        # Backend PHP scripts
 │-- /shortlink     # Common includes (header, footer, database connection)
 │-- /Uploads       # Uploaded property images
+│-- /ai_model      # AI-based price estimation model
 │-- index.php      # Main entry point
 ```
 
-## Usage
+---
 
-- **User Registration & Login**
-- **Add and Manage Properties**
-- **Search & Filter Listings**
-- **Admin Control Panel**
+## 📢 Contributing
+We welcome contributions to improve RentWise! Feel free to:
+- Report issues.
+- Submit feature requests.
+- Create pull requests for bug fixes or new features.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Added new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
-
-## License
-
-This project is licensed under the **MIT License**.
+### 🚀 How to Contribute
+1. **Fork the repository**.
+2. **Create a new branch**: `git checkout -b feature-branch`.
+3. **Commit your changes**: `git commit -m 'Added new feature'`.
+4. **Push to the branch**: `git push origin feature-branch`.
+5. **Open a Pull Request**.
 
 ---
 
-**Author:** Utsav Modi\
-**GitHub:** [Utsav9303](https://github.com/Utsav9303)
+## 🔧 Technologies Used
+- **Frontend**: HTML, CSS, JavaScript, jQuery
+- **Backend**: PHP, MySQL, Flask (for AI model)
+- **Database**: MySQL
+- **AI Model**: Python, Scikit-learn, Pandas, NumPy
+- **Version Control**: Git & GitHub
+
+---
+
+## 🎤 Feedback
+Your feedback is valuable! Share your suggestions or report issues via GitHub.
+
+## 💖 License
+This project is licensed under the **MIT License**.
+
+Start managing your properties smartly with **RentWise** today! 🚀
 
