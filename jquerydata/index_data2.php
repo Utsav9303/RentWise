@@ -2,7 +2,7 @@
 
 $method= $_GET['method'];
 $city= $_GET['city'];
-$conn = mysqli_connect('localhost','root','','gujju_homes');
+$conn = mysqli_connect('localhost','root','','rent_wise');
 // mysqli_select_db($con,"gujju_homes");
 
 $qry= "select DISTINCT type from property where status=0 and (city='".$city."' or rent_sell='".$method."')";

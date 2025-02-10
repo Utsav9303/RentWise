@@ -2,7 +2,7 @@
 
 $city = $_GET['city'];
 
-$conn = mysqli_connect('localhost', 'root', '', 'gujju_homes');
+$conn = mysqli_connect('localhost', 'root', '', 'rent_wise');
 
     $qry = "select DISTINCT rent_sell from property where status=0 and city='" . $city . "'";
     $rs = mysqli_query($conn, $qry);

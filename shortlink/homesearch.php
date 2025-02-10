@@ -63,6 +63,11 @@
                                     <?php
 
                                     while ($row = $pt->fetch_assoc()) {
+                                        // Skip the option if city equals "sample city" (case-insensitive)
+                                        if (strtolower(trim($row['type'])) === 'sample type') {
+                                            continue;
+                                        }
+
                                         if ($_GET['type'] == $row['type']) {
                                             echo "<option value='$row[type]' class='text-capitalize' selected>$row[type]</option>";
                                         } else {
@@ -94,7 +99,7 @@
                                         document.getElementById('method').innerHTML = ajaxreq.responseText;
                                     }
                                 }
-                                ajaxreq.open('GET', 'http://localhost/6th-Project/Project_Coding_Main/jquerydata/index_data1.php?city=' + city, true);
+                                ajaxreq.open('GET', 'http://localhost/Rent_Wise/jquerydata/index_data1.php?city=' + city, true);
                                 ajaxreq.send();
                             }
 
@@ -107,7 +112,7 @@
                                         document.getElementById('type').innerHTML = ajaxreq.responseText;
                                     }
                                 }
-                                ajaxreq.open('GET', 'http://localhost/6th-Project/Project_Coding_Main/jquerydata/index_data2.php?method=' + method + '&city=' + city, true);
+                                ajaxreq.open('GET', 'http://localhost/Rent_Wise/jquerydata/index_data2.php?method=' + method + '&city=' + city, true);
                                 ajaxreq.send();
                             }
 

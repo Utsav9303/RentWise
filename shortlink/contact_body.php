@@ -1,9 +1,9 @@
 <!--contact section start-->
 <div class="contact-section">
   <div class="contact-info">
-    <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+    <div><i class="fas fa-map-marker-alt"></i>GCET CP, Anand, India</div>
     <div><i class="fas fa-envelope"></i>rentwise@uh.com</div>
-    <div><i class="fas fa-phone"></i>+91 9428892111</div>
+    <div><i class="fa fa-phone"></i>+91 9428892111</div>
     <div><i class="fas fa-clock"></i>Mon-Fri 8:00am to 5:00pm</div>
   </div>
 
