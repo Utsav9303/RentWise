@@ -53,7 +53,7 @@ Follow these steps to set up RentWise on your local machine:
 
 ### 1️⃣ Clone the Repository
 ```sh
-$ git clone https://github.com/Utsav9303/Rent_Wise.git
+$ git clone https://github.com/Utsav9303/RentWise.git
 $ cd Rent_Wise
 ```
 
