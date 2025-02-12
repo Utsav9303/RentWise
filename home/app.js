@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Selected City:", selectedCity);
     
     function loadLocalities() {
-        let url = `http://192.168.240.17:5000/get_localities?city=${encodeURIComponent(selectedCity)}`;
+        let url = `http://192.168.207.17:5000/get_localities?city=${encodeURIComponent(selectedCity)}`;
 
         fetch(url)
             .then(response => response.json())
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
     function predictPrice() {
-        let url = "http://192.168.240.17:5000/predict";
+        let url = "http://192.168.207.17:5000/predict";
         let area = document.getElementById("area").value;
         let bhk = document.getElementById("bhk").value;
         let propertyType = document.getElementById("property_type").value;
