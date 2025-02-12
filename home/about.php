@@ -111,10 +111,12 @@ if (isset($_SESSION['u_id'])) {
                         <p class="member-details">Oversees project architecture and front-end development, ensuring
                             seamless integration of design and functionality.</p>
                         <div class="member-contact">
+                            <a href="mailto:utsavmodi000@gmail.com">
                             <span class="member-email">
                                 <i class="fas fa-envelope"></i>
                                 utsavmodi000@gmail.com
                             </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -130,10 +132,12 @@ if (isset($_SESSION['u_id'])) {
                         <p class="member-details">He also design front-end and provide the back-end support to the
                             project leader.</p>
                         <div class="member-contact">
+                        <a href="mailto:aminharshil665@gmail.com">
                             <span class="member-email">
                                 <i class="fas fa-envelope"></i>
                                 aminharshil665@gmail.com
                             </span>
+                            </a>
                         </div>
                     </div>
                 </div>
