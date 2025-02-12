@@ -51,7 +51,7 @@ if (isset($_SESSION['u_id'])) {
 
         </div>
     </div>
-    <!-- Spinner End -->
+    <!-- End -->
 
     <!-- This will add Header -->
     <?php if (!isset($_SESSION['u_id'])) {
