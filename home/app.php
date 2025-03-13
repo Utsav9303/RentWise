@@ -212,7 +212,7 @@ $row = mysqli_fetch_assoc($match);
 
         function loadLocalities() {
             const selectedCity = localStorage.getItem('selectedCity') || 'Bangalore';
-            const url = `http://192.168.157.17:5000/get_localities?city=${encodeURIComponent(selectedCity)}`;
+            const url = `http://192.168.34.17:5000/get_localities?city=${encodeURIComponent(selectedCity)}`;
 
             $.get(url, function (data) {
                 $('#locality').empty().append('<option value="" disabled selected>Choose a Location</option>');
@@ -242,7 +242,7 @@ $row = mysqli_fetch_assoc($match);
             }
 
             $.ajax({
-                url: 'http://192.168.157.17:5000/predict',
+                url: 'http://192.168.34.17:5000/predict',
                 type: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify(requestData),

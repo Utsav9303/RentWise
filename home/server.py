@@ -128,7 +128,7 @@ def predict():
 
         # Make the prediction
         prediction = model.predict(features_df)[0]
-
+        print("🔮 features_df:", features)
         print("🔮 Prediction:", prediction)
 
         return jsonify({'prediction': float(format(prediction, ".2f")), 'status': 'success'})
